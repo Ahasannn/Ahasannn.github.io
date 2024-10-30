@@ -21,7 +21,7 @@
       }
     ]
   },
-  "experience": [
+  "professional experience": [
     {
       "name": "AppsCode Inc.",
       "position": "Software Engineer Intern",
@@ -30,6 +30,26 @@
       "endDate": "Nov, 2023",
       "summary": "Undertook this internship as part of my undergraduate curriculum, gaining hands-on industry experience while fulfilling course credit requirements.",
       "highlights": ["Developed and integrated RESTful API endpoints using Go"]
+    },
+    {
+      "name": "Kinetik Healthcare Solutions",
+      "position": "Software Engineer I",
+      "location" : "New York, United States",
+      "startDate": "May, 2023",
+      "endDate": "Present",
+      "summary": "Working as a full-time remote software engineer for a U.S.-based startup, contributing to an Uber-like app for medical transportation as one of the three core members of the iOS team.",
+      "highlights": ["Developing the iOS mobile application from scratch", "Worked with Swift in frontend", "Implementing the backend with NodeJs, gRPC, MongoDB, TypeScript, NestJs"]
+    }
+  ],
+  "teaching & mentorship": [
+    {
+      "name": "International Islamic University Chittagong",
+      "position": "Competitive Programming Trainer",
+      "location" : "Chattogram, Bangladesh",
+      "startDate": "Jan, 2022",
+      "endDate": "Sept, 2022",
+      "summary": "",
+      "highlights": ["Conducted over 20 training sessions on Algorithms and Data Structures for more than 100 students.", "Reformed & coached the programming teams and they achieved 2nd & 3rd place in two Inter University Programming Contests."]
     },
     {
       "name": "Kinetik Healthcare Solutions",
