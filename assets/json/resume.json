@@ -23,6 +23,15 @@
   },
   "experience": [
     {
+      "name": "AppsCode Inc.",
+      "position": "Software Engineer Intern",
+      "location" : "Dhaka, Bangladesh",
+      "startDate": "Oct, 2023",
+      "endDate": "Nov, 2023",
+      "summary": "Undertook this internship as part of my undergraduate curriculum, gaining hands-on industry experience while fulfilling course credit requirements.",
+      "highlights": ["Developed and integrated RESTful API endpoints using Go"]
+    },
+    {
       "name": "Kinetik Healthcare Solutions",
       "position": "Software Engineer I",
       "location" : "New York, United States",
