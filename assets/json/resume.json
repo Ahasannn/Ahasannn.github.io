@@ -1,89 +1,127 @@
 {
-  "basics": {
-    "name": "Ahasan Kabir",
-    "label": "Software Engineer",
+  "general information": {
+    "Name": "Ahasan Kabir",
+    "Profession": "Software Engineer",
     "image": "",
     "email": "ahasankabir146@gmail.com",
-    "phone": "+880 1751642527",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "language": "English, Bengali"
   },
+  "education": [
+    {
+      "institution": "Chittagong University of Engineering and Technology",
+      "location": "Chattogram, Bangladesh",
+      "studyType": "BSc in Computer Science and Engineering",
+      "startDate": "Jan, 18",
+      "endDate": "July, 23",
+      "courses": ["CGPA: 3.49/4.00"]
+    },
+    {
+      "institution": "Notre Dame College, Dhaka",
+      "location": "Dhaka, Bangladesh",
+      "studyType": "Higher Secondary Education",
+      "startDate": "Jan, 16",
+      "endDate": "Dec, 17",
+      "courses": ["GPA: 5.00/5.00"]
+    }
+  ],
   "professional experience": [
     {
       "name": "AppsCode Inc.",
       "position": "Software Engineer Intern",
       "location" : "Dhaka, Bangladesh",
-      "startDate": "Oct, 2023",
-      "endDate": "Nov, 2023",
+      "startDate": "Oct, 23",
+      "endDate": "Nov, 23",
       "summary": "Undertook this internship as part of my undergraduate curriculum, gaining hands-on industry experience while fulfilling course credit requirements.",
-      "highlights": ["Developed and integrated RESTful API endpoints using Go"]
+      "highlights": ["Developed and integrated RESTful API endpoints using Go."]
     },
     {
       "name": "Kinetik Healthcare Solutions",
       "position": "Software Engineer I",
-      "location" : "New York, United States",
-      "startDate": "May, 2023",
+      "location" : "New York, US (Remote)",
+      "startDate": "May, 23",
       "endDate": "Present",
-      "summary": "Working as a full-time remote software engineer for a U.S.-based startup, contributing to an Uber-like app for medical transportation as one of the three core members of the iOS team.",
-      "highlights": ["Developing the iOS mobile application from scratch", "Worked with Swift in frontend", "Implementing the backend with NodeJs, gRPC, MongoDB, TypeScript, NestJs"]
+      "summary": "Working as a full-time software engineer for a U.S.-based startup, contributing to an Uber-like app for medical transportation as one of the three core members of the iOS team.",
+      "highlights": ["Developing the iOS mobile application from scratch", "Designed the frontend with Swift, UIKit.", "Implementing the backend with NodeJs, gRPC, MongoDB, TypeScript, NestJs"]
     }
   ],
-  "teaching & mentorship": [
+  "research experience": [
+    {
+      "name": "CUET NLP Lab",
+      "position": "Research Assistant - Part Time",
+      "location" : "Chattogram, Bangladesh",
+      "startDate": "July, 24",
+      "endDate": "Present",
+      "summary": "Conducting research under Professor Dr. Mohammed Moshiul Hoque, focusing on Retrieval-Augmented Generation (RAG) and large language model (LLM) applications for Bangla language tasks.",
+      "highlights": ["Building a benchmark to evaluate RAG models in the Bengali language.", "Developing a Bangla open-domain question-answering dataset tailored for RAG applications.", "Creating a robust RAG framework for Bengali open-domain question answering."]
+    },
+    {
+      "name": "",
+      "position": "Independent Research",
+      "location": "Chattogram, Bangladesh",
+      "startDate": "June, 23",
+      "endDate": "Feb, 24",
+      "summary": "Conducted independent research with peers on sentiment analysis and emotion classification, focusing on multimodal approaches and the detection of sarcasm in product reviews.",
+      "highlights": [
+        "Developed a multimodal Bangla social media dataset of 4,660 samples and designed a system for multimodal emotion classification, with findings published in IEEE - ICCIT 2023.",
+        "Separated sarcastic elements in online product reviews using binary classification, followed by multi-label sentiment analysis, with results published in Springer Nature Singapore - BIM 2023."
+      ]
+    },    
+    {
+      "name": "Chittagong University of Engineering and Technology",
+      "position": "Undergraduate Thesis",
+      "location": "Chattogram, Bangladesh",
+      "startDate": "June, 22",
+      "endDate": "May, 23",
+      "summary": "Worked under the supervision of Assistant Professor Animesh Chandra Roy to design a hybrid model for Bangla emotion detection, integrating lexicon features with pre-trained transformer models.",
+      "highlights": [
+          "Developed an emotion lexicon of 5,336 Bangla terms.",
+          "Improved classification performance by incorporating lexicon features with transformer models.",
+          "Published findings in EMNLP 2023 - BLP Workshop."
+      ]
+    }
+  ],
+  "teaching experience": [
+    {
+      "name": "Chittagong University of Engineering and Technology",
+      "position": "Judge & Problem Setter",
+      "location": "Chattogram, Bangladesh",
+      "startDate": "Aug, 22",
+      "endDate": "Jan, 24",
+      "summary": "Served as a judge and problem setter for multiple divisional and national inter-university programming competitions. Authored and reviewed problems, coordinated problem sets, and ensured contest quality across events.",
+      "highlights": [
+          "CUET CodeStorm 1.0 - Inter University Programming Contest 2024.",
+          "CUET CSE Fest - Inter University Programming Contest 2022.",
+          "IIUC CSE Fest Programming Contest 2022."
+      ]
+    },
     {
       "name": "International Islamic University Chittagong",
       "position": "Competitive Programming Trainer",
       "location" : "Chattogram, Bangladesh",
-      "startDate": "Jan, 2022",
-      "endDate": "Sept, 2022",
-      "summary": "",
-      "highlights": ["Conducted over 20 training sessions on Algorithms and Data Structures for more than 100 students.", "Reformed & coached the programming teams and they achieved 2nd & 3rd place in two Inter University Programming Contests."]
+      "startDate": "Jan, 22",
+      "endDate": "Sept, 22",
+      "summary": "Served as a trainer, using my competitive programming background to prepare IIUC teams for the International Collegiate Programming Contest.",
+      "highlights": ["Conducted over 20 training sessions on Algorithms and Data Structures for a group of 100+ students.", "Reformed and coached teams that went on to secure 2nd and 3rd place in two inter-university programming contests."]
     },
     {
-      "name": "Kinetik Healthcare Solutions",
-      "position": "Software Engineer I",
-      "location" : "New York, United States",
-      "startDate": "May, 2023",
-      "endDate": "Present",
-      "summary": "Working as a full-time remote software engineer for a U.S.-based startup, contributing to an Uber-like app for medical transportation as one of the three core members of the iOS team.",
-      "highlights": ["Developing the iOS mobile application from scratch", "Worked with Swift in frontend", "Implementing the backend with NodeJs, gRPC, MongoDB, TypeScript, NestJs"]
+      "name": "Chittagong University of Engineering and Technology",
+      "position": "Teaching Assistant",
+      "location" : "Chattogram, Bangladesh",
+      "startDate": "Mar, 18",
+      "endDate": "July, 18",
+      "summary": "Appointed as a TA for the \"Structured Programming\" course under Assistant Professor Md. Sabir Hossain.",
+      "highlights": ["Organized assignments and project-based tasks.", "Provided one-on-one guidance to enhance students' foundational knowledge."]
     }
   ],
-  "volunteer": [
+  "leadership": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "organization": "CUET Computer Club",
+      "location": "Chattogram, Bangladesh",
+      "position": "Vice President",
+      "startDate": "Aug, 22",
+      "endDate": "Apr, 23",
+      "summary": "",
+      "highlights": ["Arranged workshops, seminars & contests on regular basis.", "Created annual curriculum and programming syllabus for the club members."]
     }
   ],
   "awards": [
