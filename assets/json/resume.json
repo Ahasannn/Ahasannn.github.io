@@ -24,7 +24,7 @@
       "courses": ["GPA: 5.00/5.00"]
     }
   ],
-  "professional experience": [
+  "industrial experience": [
     {
       "name": "AppsCode Inc.",
       "position": "Software Engineer Intern",
@@ -126,11 +126,48 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "International Collegiate Programming Contest (ICPC)",
+      "items": [
+        "22<sup>nd</sup>  in ICPC Asia West Continent Final Contest 2022 <a href=\"/assets/pdf/2022_Asia_West_Place.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+        "25<sup>th</sup> in ICPC Asia West Continent Final Contest 2021 <a href=\"https://icpc.codedrills.io/contests/icpc-asia-west-continent-finals-2021/scoreboard?fbclid=IwAR2osMgkhd5aWIFJmOTCt16oiZN8v1J14_mMxe1vvyibZzm1QIYSq1Y0SyQ\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
+        "Honarable Mention in ICPC Asia Dhaka Regional Site 2020 <a href=\"/assets/pdf/2020_Honorable_Dhaka.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a> & 2021 <a href=\"/assets/pdf/2021_Honorable_Dhaka.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+        "14<sup>th</sup> among 1324 teams in ICPC Asia Dhaka Regional Site Online Preliminary Contest 2021 <a href=\"/assets/pdf/2021_Dhaka_Preliminary.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>"
+      ]
+    },
+    {
+      "title": "Inter University Programming Contest",
+      "items": [
+         "9<sup>th</sup>  among 114 teams in BUET IUPC 2022 <a href=\"https://toph.co/c/buet-inter-university-2022/standings\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
+        "1<sup>st</sup>  among 64 teams in Tech Carnival 2021 <a href=\"https://toph.co/c/tech-carnival-1-0/standings\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
+        "1<sup>st</sup>  among 48 teams in RMSTU IUPC 2021 <a href=\"https://toph.co/c/rmstu-bangabandhu-online-divisional-2021/standings\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>"
+      ]
+    },
+    {
+      "title": "Meta Hacker Cup - 2021 <a href=\"https://www.facebook.com/codingcompetitions/hacker-cup/2021/certificate/1682951381858756\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>",
+      "items": [
+        "Qualification Round : ranked 38<sup>th</sup> out of 34584 participants",
+        "Round 1 : ranked 116<sup>th</sup> out of 12692 participants",
+        "Round 2 : ranked 871<sup>st</sup> out of 6789 participants"
+      ]
+    },
+    {
+      "title": "Google Coding Competitions (Discontinued from 2023) <a href=\"https://zibada.guru/gcj/profile/Ahasan_Kabir\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
+      "items": [
+         "Reached 2<sup>nd</sup>  round on Google Code Jam 2022",
+        "168<sup>th</sup>  among 7147 participants in Kickstart Round B 2022",
+        "107<sup>th</sup>  among 12175 participants in Kickstart Round C 2021"
+      ]
+    },
+    {
+      "title": "Codeforces.com (Handle : AK.)",
+      "items": [
+        "Max Rating: 2094 - Candidate Master (Top 1%) <a href=\"https://codeforces.com/profile/AK.\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>",
+        "Solve Count : 3329 Problems (Among top 200 most solver list) <a href=\"https://codeforces.com/problemset/standings/page/1\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>",
+        "Participated in 335 rated contests  <a href=\"https://codeforces.com/contests/with/AK.\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>",
+        "36<sup>th</sup> out of 15567 participants in Codeforces Round 721 (Div. 2)  <a href=\"https://codeforces.com/contest/1527/standings/page/1\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>",
+        "47<sup>th</sup> out of 15365 participants in CodeCraft-22 <a href=\"https://codeforces.com/contest/1691/standings/page/1\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>"
+        //"47<sup>th</sup> out of 9888 participants in Codeforces Round 783 (Div. 2) <a href=\"https://codeforces.com/contest/1668/standings/page/1\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>"
+      ]
     }
   ],
   "certificates": [
