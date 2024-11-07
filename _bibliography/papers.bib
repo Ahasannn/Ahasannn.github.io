@@ -1,115 +1,65 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@INPROCEEDINGS{10441295,
+  author={Taheri, Zaima Sartaj and Roy, Animesh Chandra and Kabir, Ahasan},
+  booktitle={2023 26th International Conference on Computer and Information Technology (ICCIT)}, 
+  title={BEmoFusionNet: A Deep Learning Approach For Multimodal Emotion Classification in Bangla Social Media Posts}, 
+  year={2023},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  abbr={ICCIT},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={Multimodal emotion classification, incorporating both image and text modalities, has gained significant attention due to the exponential growth of multimedia data. This research aims to develop a robust system for multimodal emotion classification in Bangla social media content, utilizing both image and text data. Despite limited resources, understanding emotions in Bangla is crucial for mental health interventions. Unlike previous studies focused on well-resourced languages, this research addresses the gap by specifically targeting regional languages like Bangla, going beyond the traditional positive, negative, and neutral classes. This work presents a multimodal Bangla social post dataset containing 4660 samples. Transfer learning techniques, utilizing pre-trained models like ResNet50, VGG16, and InceptionV3, extract visual features, while deep learning architectures such as BiLSTM and CNN are employed for textual content analysis. Multimodal learning techniques, including feature fusion and decision fusion, are explored to combine visual and textual representations. We evaluated the feature fusion of InceptionV3 and BiLSTM features on our Bangla social media post dataset. Our approach achieved a weighted f1-score of 77.50%.},
+  keywords={Deep learning;Visualization;Social networking (online);Transfer learning;Feature extraction;Task analysis;Tuning;Natural language processing;Multimodal;Feature Fusion;Decision Fusion},
+  doi={10.1109/ICCIT60459.2023.10441295},
+  ISSN={},
+  month={Dec}
+  }
+
+@inproceedings{kabir-etal-2023-bemolexbert,
+    title = "{BE}mo{L}ex{BERT}: A Hybrid Model for Multilabel Textual Emotion Classification in {B}angla by Combining Transformers with Lexicon Features",
+    author = "Kabir, Ahasan  and
+      Roy, Animesh  and
+      Taheri, Zaima",
+    editor = "Alam, Firoj  and
+      Kar, Sudipta  and
+      Chowdhury, Shammur Absar  and
+      Sadeque, Farig  and
+      Amin, Ruhul",
+    booktitle = "Proceedings of the First Workshop on Bangla Language Processing (BLP-2023)",
+    month = dec,
+    year = "2023",
+    abbr= {BLP-2023},
+    bibtex_show={true},
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.banglalp-1.7",
+    doi = "10.18653/v1/2023.banglalp-1.7",
+    pages = "56--61",
+    abstract = "Multilevel textual emotion classification involves the extraction of emotions from text data, a task that has seen significant progress in high resource languages. However, resource-constrained languages like Bangla have received comparatively less attention in the field of emotion classification. Furthermore, the availability of a comprehensive and accurate emotion lexiconspecifically designed for the Bangla language is limited. In this paper, we present a hybrid model that combines lexicon features with transformers for multilabel emotion classification in the Bangla language. We have developed a comprehensive Bangla emotion lexicon consisting of 5336 carefully curated lexicons across nine emotion categories. We experimented with pre-trained transformers including mBERT, XLM-R, BanglishBERT, and BanglaBERT on the EmoNaBa (Islam et al.,2022) dataset. By integrating lexicon features from our emotion lexicon, we evaluate the performance of these transformers in emotion detection tasks. The results demonstrate that incorporating lexicon features significantly improves the performance of transformers. Among the evaluated models, our hybrid approach achieves the highest performance using BanglaBERT(large) (Bhattacharjee et al., 2022) as the pre-trained transformer along with our emotion lexicon, achieving an impressive weighted F1 score of 82.73{\%}. The emotion lexicon is publicly available at https://github.com/Ahasannn/BEmoLex-Bangla{\_}Emotion{\_}Lexicon",
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@InProceedings{10.1007/978-981-99-8937-9_52,
+author="Roy, Animesh Chandra
+and Kabir, Ahasan
+and Taheri, Zaima Sartaj
+and Rifat, Md. Jahedul Alam",
+editor="Arefin, Mohammad Shamsul
+and Kaiser, M. Shamim
+and Bhuiyan, Touhid
+and Dey, Nilanjan
+and Mahmud, Mufti",
+title="Multi-label Sentiment Analysis of Product Reviews of Online Shop",
+booktitle="Proceedings of the 2nd International Conference on Big Data, IoT and Machine Learning",
+year="2024",
+ abbr= {BIM},
+bibtex_show = {true},
+publisher = "Springer Nature Singapore",
+address = "Singapore",
+pages = "777--791",
+doi={10.1007/978-981-99-8937-9_52},
+abstract="Online shopping has become very popular nowadays. It tends to share user experiences of buying products or dealing with the seller by posting reviews. So millions of reviews are being generated daily. It can be difficult for a new customer of that particular product to read all of those reviews and decide whether or not to purchase. In this situation, an overall sentiment(s) of the whole review might help them. Also, people being more creative sometimes post-sarcastic or ironic statements. This may mislead other buyers. The majority of the previous research work regarding product sentiment analysis was confined to two to three sentiments only. Also, a review may express several emotions at once. By doing binary classification, we may miss other emotions present alongside the predicted one. So we have proposed a binary classifier model to separate the sarcastic reviews and then a multi-label classifier model to detect the emotions present in a particular review. We have applied several methods for multi-label classification naming binary relevance, classifier chain, and label powerset on up to four different classifiers. Among them, the OnevsRest classifier along with the support vector classifier as an estimator performed better than the other methods. We have also trained and tested a few binary classifiers for sarcasm detection and got almost the same accuracy of 93.37 and 93.92{\%} for logistic regression and support vector classifier.",
+isbn="978-981-99-8937-9"
 }

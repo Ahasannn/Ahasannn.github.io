@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+first_name: Ahasan
+middle_name: 
+last_name: Kabir
+email: ahasankabir146@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -31,7 +31,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false 
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -49,8 +49,8 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
+search_enabled: false
+socials_in_search: true 
 bib_search: true
 
 # Dimensions
@@ -313,8 +313,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kabir]
+  first_name: [Ahasan]
 
   style: apa
   locale: en
@@ -346,31 +346,7 @@ enable_publication_badges:
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords:
-  [
-    abbr,
-    abstract,
-    additional_info,
-    altmetric,
-    annotation,
-    arxiv,
-    award,
-    award_name,
-    bibtex_show,
-    blog,
-    code,
-    google_scholar_id,
-    html,
-    inspirehep_id,
-    pdf,
-    poster,
-    preview,
-    selected,
-    slides,
-    supp,
-    video,
-    website,
-  ]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3 # leave blank to always show all authors
@@ -644,8 +620,6 @@ jsonresume:
   - projects
   - leadership
   - awards
-  - certificates
   - skills
-  - languages
+  - test scores
   - interests
-  - references

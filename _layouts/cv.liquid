@@ -78,7 +78,7 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize | replace: "Industrial experience", "Industrial Experience" | replace: "Teaching experience", "Teaching Experience" | replace: "Research experience", "Research Experience" | replace: "General information", "General Information" |  replace: "Awards", "Achievements" }}</h3>
+            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize | replace: "Industrial experience", "Industrial Experience" | replace: "Teaching experience", "Teaching Experience" | replace: "Research experience", "Research Experience" | replace: "General information", "General Information" |  replace: "Awards", "Achievements" |  replace: "Test scores","Test Scores"  }}</h3>
             <div>
               {% case data[0] %}
                 {% when 'general information' %}
@@ -101,14 +101,12 @@ layout: default
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
-                {% when 'languages' %}
+                {% when 'test scores' %}
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
                   {% include resume/interests.liquid %}
                 {% when 'certificates' %}
                   {% include resume/certificates.liquid %}
-                {% when 'references' %}
-                  {% include resume/references.liquid %}
                 {% else %}
 
               {% endcase %}
