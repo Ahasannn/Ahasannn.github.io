@@ -24,6 +24,24 @@
       "courses": ["GPA: 5.00/5.00"]
     }
   ],
+  "test scores": [
+    {
+      "title": "Graduate Record Examination <a href=\"/assets/pdf/GRE_Report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+      "items": [
+        "Total: 327 / 340",
+        "Quant: 169 / 170, Verbal: 158 / 170",
+        "Test Date: Sept, 2024"
+      ]
+    },
+    {
+      "title": "English Proficiency Test: TOEFL iBT  <a href=\"/assets/pdf/Toefl_score_report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+      "items": [
+        "Total: 99 / 120",
+        "Reading: 28, Listening: 26, Speaking: 22, Writing: 23",
+        "Test Date: Oct, 2024"
+      ]
+    }
+  ],
   "industrial experience": [
     {
       "name": "Kinetik Healthcare Solutions",
@@ -155,12 +173,18 @@
         "Participated in 335 rated contests  <a href=\"https://codeforces.com/contests/with/AK.\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>",
         "36<sup>th</sup> out of 15567 participants in Codeforces Round 721 (Div. 2)  <a href=\"https://codeforces.com/contest/1527/standings/page/1\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>",
         "47<sup>th</sup> out of 15365 participants in CodeCraft-22 <a href=\"https://codeforces.com/contest/1691/standings/page/1\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>"
-        //"47<sup>th</sup> out of 9888 participants in Codeforces Round 783 (Div. 2) <a href=\"https://codeforces.com/contest/1668/standings/page/1\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fas fa-external-link-alt\"></i></a>"
+      ]
+    },
+    {
+      "title": "Miscellaneous",
+      "items": [
+         "Became 1<sup>st</sup> runners-up out of 70+ teams at the \"Mobile App Game & Job Festival 2023\" organized by ICT Division, Bangladesh.",
+         "Selected as a top 30 nationwide finalist in \"Student to Startup | Chapter 1\" organized by the Bangladesh government."
       ]
     }
   ],
   "publications": [
-     "<a href=\"/publications/\" target=\"_blank\">View in publication page</a>"
+    "<a href=\"/publications/\" target=\"_blank\">View in publication page</a>"
   ],
   "skills": [
     {
@@ -176,46 +200,14 @@
       ]
     }
   ],
-  "test scores": [
-    {
-      "title": "Graduate Record Examination <a href=\"/assets/pdf/GRE_Report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
-      "items": [
-        "Total: 327 / 340",
-        "Quant: 169 / 170, Verbal: 158 / 170",
-        "Test Date: Sept, 2024"
-      ]
-    },
-    {
-      "title": "English Proficiency Test: TOEFL iBT  <a href=\"/assets/pdf/Toefl_score_report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
-      "items": [
-        "Total: 99 / 120",
-        "Reading: 28, Listening: 26, Speaking: 22, Writing: 23",
-        "Test Date: Oct, 2024"
-      ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "title": "Real-Time Expression Detector <a href=\"https://github.com/Ahasannn/Real-Time-Expression-Detector\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
+      "description": ["Built a body language decoder to detect expression in real-time from live videos using machine learning algorithms in Python.", "Captured coordinates of facial expressions and gestures", "Detected happy, sad, and victory expressions with an average accuracy of 94%"]
+    },
+    {
+      "title": "FameBiz <a href=\"https://fame-biz.vercel.app\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
+      "description": ["This is a collaborative project, we have developed a system for fans to connect with their favourite celebrities","I have developed the backend of this project using TypeScript, NestJS, MongoDB, RestAPI."]
     }
   ],
   "leadership": [

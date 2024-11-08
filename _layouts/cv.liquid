@@ -85,28 +85,24 @@ layout: default
                   {% include resume/basics.liquid %}
                 {% when 'education' %}
                   {% include resume/education.liquid %}
+                {% when 'test scores' %}
+                  {% include resume/languages.liquid %}
                 {% when 'industrial experience' %}
                   {% include resume/work.liquid %}
                 {% when 'research experience' %}
                   {% include resume/work.liquid %}
                 {% when 'teaching experience' %}
                    {% include resume/work.liquid %}
-                {% when 'leadership' %}
-                  {% include resume/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include resume/projects.liquid %}
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
-                {% when 'skills' %}
-                  {% include resume/skills.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
-                {% when 'test scores' %}
-                  {% include resume/languages.liquid %}
-                {% when 'interests' %}
-                  {% include resume/interests.liquid %}
-                {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
+                {% when 'skills' %}
+                  {% include resume/skills.liquid %}
+                {% when 'projects' %}
+                  {% include resume/projects.liquid %}
+                {% when 'leadership' %}
+                  {% include resume/volunteer.liquid %}
                 {% else %}
 
               {% endcase %}
