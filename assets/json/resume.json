@@ -24,24 +24,6 @@
       "courses": ["GPA: 5.00/5.00"]
     }
   ],
-  "test scores": [
-    {
-      "title": "Graduate Record Examination",
-      "items": [
-        "Total: 327 / 340 <a href=\"/assets/pdf/GRE_Report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
-        "Quant: 169 / 170, Verbal: 158 / 170",
-        "Test Date: Sept, 2024"
-      ]
-    },
-    {
-      "title": "English Proficiency Test: TOEFL iBT",
-      "items": [
-        "Total: 99 / 120  <a href=\"/assets/pdf/Toefl_score_report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
-        "Reading: 28, Listening: 26, Speaking: 22, Writing: 23",
-        "Test Date: Oct, 2024"
-      ]
-    }
-  ],
   "industrial experience": [
     {
       "name": "Kinetik Healthcare Solutions",
@@ -231,6 +213,24 @@
       "description": ["This was a team project, we developed a platform to connect fans with their favorite celebrities.","I implemented the backend of this project using TypeScript, NestJS, MongoDB, and REST API."]
     }
   ],
+  "test scores": [
+    {
+      "title": "Graduate Record Examination",
+      "items": [
+        "Total: 327 / 340 <a href=\"/assets/pdf/GRE_Report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+        "Quant: 169 / 170, Verbal: 158 / 170",
+        "Test Date: Sept, 2024"
+      ]
+    },
+    {
+      "title": "English Proficiency Test: TOEFL iBT",
+      "items": [
+        "Total: 99 / 120  <a href=\"/assets/pdf/Toefl_score_report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+        "Reading: 28, Listening: 26, Speaking: 22, Writing: 23",
+        "Test Date: Oct, 2024"
+      ]
+    }
+  ] ,
   "leadership": [
     {
       "organization": "CUET Computer Club",

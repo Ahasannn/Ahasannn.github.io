@@ -613,7 +613,6 @@ jekyll_get_json:
 jsonresume:
   - general information
   - education
-  - test scores
   - industrial experience
   - research experience
   - teaching experience
@@ -621,5 +620,6 @@ jsonresume:
   - publications
   - skills
   - projects
+  - test scores
   - leadership
 
