@@ -1318,3 +1318,31 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// Extra Markdown style (post Customization)
+.post{
+  .post-meta{
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+  .post-tags{
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    padding-top: 0.25rem;
+    padding-bottom: 1rem;
+    a {
+      color: var(--global-text-color-light);
+      text-decoration: none;
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+  .post-content{
+    blockquote {
+      border-left: 5px solid var(--global-theme-color);
+      padding: 8px;
+    }
+  }
+}
