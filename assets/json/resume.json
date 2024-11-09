@@ -26,17 +26,17 @@
   ],
   "test scores": [
     {
-      "title": "Graduate Record Examination <a href=\"/assets/pdf/GRE_Report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+      "title": "Graduate Record Examination",
       "items": [
-        "Total: 327 / 340",
+        "Total: 327 / 340 <a href=\"/assets/pdf/GRE_Report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
         "Quant: 169 / 170, Verbal: 158 / 170",
         "Test Date: Sept, 2024"
       ]
     },
     {
-      "title": "English Proficiency Test: TOEFL iBT  <a href=\"/assets/pdf/Toefl_score_report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+      "title": "English Proficiency Test: TOEFL iBT",
       "items": [
-        "Total: 99 / 120",
+        "Total: 99 / 120  <a href=\"/assets/pdf/Toefl_score_report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
         "Reading: 28, Listening: 26, Speaking: 22, Writing: 23",
         "Test Date: Oct, 2024"
       ]
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "title": "Google Coding Competitions (Discontinued from 2023) <a href=\"https://zibada.guru/gcj/profile/Ahasan_Kabir\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
+      "title": "Google Coding Competitions <a href=\"https://zibada.guru/gcj/profile/Ahasan_Kabir\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
       "items": [
          "Reached 2<sup>nd</sup>  round on Google Code Jam 2022",
         "168<sup>th</sup>  among 7147 participants in Kickstart Round B 2022",
@@ -190,13 +190,34 @@
     {
       "title": "Programming Language",
       "items": [
-        "C/C++, Swift, Python, JavaScript, Go"
+        "C/C++, Swift, JavaScript, Python"
       ]
     },
     {
-      "title": "Programming Language",
+      "title": "Frameworks",
       "items": [
-        "C/C++, Swift, Python, JavaScript, Go"
+        "PyTorch, Keras, Tensorflow"
+      ]
+    },
+    {
+      "title": "Mobile Application Development - iOS",
+      "items": [
+        "UIKit, SwiftUI"
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "items": [
+        "TypeScript, NestJS, RESTAPI, RESTFul, gRPC, MongoDB"
+      ]
+    },
+    {
+      "title": "Others",
+      "items": [
+        "Natural Language Processing",
+        "Machine Learning, Deep Learning",
+        "Large Language Models, Retrieval Augmented Generation",
+        "Data Structures and Algorithms"
       ]
     }
   ],
@@ -207,7 +228,7 @@
     },
     {
       "title": "FameBiz <a href=\"https://fame-biz.vercel.app\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
-      "description": ["This is a collaborative project, we have developed a system for fans to connect with their favourite celebrities","I have developed the backend of this project using TypeScript, NestJS, MongoDB, RestAPI."]
+      "description": ["This was a team project, we developed a platform to connect fans with their favorite celebrities.","I implemented the backend of this project using TypeScript, NestJS, MongoDB, and REST API."]
     }
   ],
   "leadership": [
