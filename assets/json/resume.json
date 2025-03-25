@@ -63,15 +63,15 @@
     }
   ],
   "research experience": [
-    {
-      "name": "CUET NLP Lab",
-      "position": "Research Assistant - Part Time",
-      "location" : "Chattogram, Bangladesh",
-      "startDate": "Sept, 24",
-      "endDate": "Present",
-      "summary": "Conducting research under Professor Dr. Mohammed Moshiul Hoque, focusing on Retrieval-Augmented Generation (RAG) and large language model (LLM) applications for Bangla language tasks.",
-      "highlights": ["Building a benchmark to evaluate RAG models in the Bengali language.", "Creating a robust RAG framework for Bengali open-domain question answering."]
-    },
+    // {
+    //   "name": "CUET NLP Lab",
+    //   "position": "Research Assistant - Part Time",
+    //   "location" : "Chattogram, Bangladesh",
+    //   "startDate": "Sept, 24",
+    //   "endDate": "Present",
+    //   "summary": "Conducting research under Professor Dr. Mohammed Moshiul Hoque, focusing on Retrieval-Augmented Generation (RAG) and large language model (LLM) applications for Bangla language tasks.",
+    //   "highlights": ["Building a benchmark to evaluate RAG models in the Bengali language.", "Creating a robust RAG framework for Bengali open-domain question answering."]
+    // },
     {
       "name": "",
       "position": "Independent Research",
