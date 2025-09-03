@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  '<span style="color: var(--global-theme-color);">Software Engineer</span>, Kinetik Healthcare Solutions.'
+subtitle:  '<span style="color: var(--global-theme-color);">Graduate Research Assistant</span>, Unbounded AI Lab at UCF'
 
 profile:
   align: right
@@ -17,17 +17,25 @@ social: true # includes social icons at the bottom of the page
 #   I am currently seeking research opportunities and a potential advisor for PhD positions beginning Fall 2025. Please <a href="mailto:ahasankabir146@gmail.com" target="_blank">contact me</a> if you want to collaborate.
 ---
 
-Welcome! I am a software engineer at Kinetik Healthcare Solutions, a US-based healthcare startup, where I am building an Uber-like iOS application for patient transportation, working remotely from Bangladesh. I earned my BSc in Computer Science and Engineering from Chittagong University of Engineering and Technology. For my undergraduate thesis, I focused on natural language processing, experimenting with the integration of handcrafted features and transformers for low-resource languages. Outside of my job, I actively engage in research projects and have presented our findings at several conferences.
 
-Throughout my undergrad and high school years, I immersed myself in mathematical and programming competitions, investing nearly 10,000 hours over 7 years to strengthen my logical and analytical abilities. I solved thousands of programming problemsets and participated in many programming competitions. I also represented my university in the International Collegiate Programming Competition, achieving notable ranks in the Asia West Region. These experiences helped me develop problem-solving skills and a deep hunger for tackling challenging problems that require perseverance, patience, and grit.
+Welcome! I am a first-year Ph.D. student in Computer Science at the University of Central Florida, where I work as a graduate research assistant in the Unbounded AI Lab advised by Prof. Qian Lou. My research interests broadly lie in building efficient and scalable AI systems.
+
+Before starting my Ph.D., I worked as a software engineer at Kinetik Healthcare Solutions, a US-based healthcare startup, where I developed an Uber-like iOS application for patient transportation.
+
+Outside of research, I enjoy algorithmic problem solving and have been active in competitive programming for many years. I represented my university in the International Collegiate Programming Contest (ICPC), earning strong results in the Asia West Region. 
+
+<!-- These experiences strengthened my analytical thinking and persistence, qualities that I carry into my research. -->
+
+<!-- Welcome! I am a software engineer at Kinetik Healthcare Solutions, a US-based healthcare startup, where I am building an Uber-like iOS application for patient transportation, working remotely from Bangladesh. I earned my BSc in Computer Science and Engineering from Chittagong University of Engineering and Technology. For my undergraduate thesis, I focused on natural language processing, experimenting with the integration of handcrafted features and transformers for low-resource languages. Outside of my job, I actively engage in research projects and have presented our findings at several conferences.
+
+Throughout my undergrad and high school years, I immersed myself in mathematical and programming competitions, investing nearly 10,000 hours over 7 years to strengthen my logical and analytical abilities. I solved thousands of programming problemsets and participated in many programming competitions. I also represented my university in the International Collegiate Programming Competition, achieving notable ranks in the Asia West Region. These experiences helped me develop problem-solving skills and a deep hunger for tackling challenging problems that require perseverance, patience, and grit. -->
 
 {% include announcement.liquid %}
 
 ## Research Interests
 
-<div style="display: flex; justify-content: space-evenly;">
-
-  <ul>
+<!-- <div style="display: flex; justify-content: space-evenly;">
+  <!-- <ul>
     <li>Natural Language Processing 📖 🤖</li>
     <li>Multimodality (Language + Vision) 🧠👁️</li>
   </ul>
@@ -36,6 +44,14 @@ Throughout my undergrad and high school years, I immersed myself in mathematical
     <li>Machine Learning Sytems 🖥️📊</li>
     <li>Trustworthy AI 🔒🤝</li>
   </ul>
+</div> -->
+
+<div style="text-align: left; font-size: 1em;">
+
+<ul>
+  <li>Efficient and Scalable AI ⚡📈</li>
+  <li>Large Language Models 📝🤖</li>
+  <li>AI Systems and Infrastructure 🖥️⚙️</li>
+</ul>
 
 </div>
-

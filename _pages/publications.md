@@ -3,7 +3,8 @@ layout: page
 permalink: /publications/
 title: publications
 headingTitle: Publications
-description: This page highlights collaborative research projects I undertook in natural language processing for the low-resource language Bangla, with a focus on sentiment and emotion analysis in both textual and multimodal data. Our findings were presented at three conferences under the guidance of my thesis supervisor, Professor Animesh Chandra Roy.
+description: This page highlights research projects from my undergraduate years, where I explored natural language processing for the low-resource language Bangla, focusing on sentiment and emotion analysis in textual and multimodal data.
+
 nav: true
 nav_order: 1
 ---

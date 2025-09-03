@@ -1,56 +1,71 @@
 {
   "general information": {
     "Name": "Ahasan Kabir",
-    "Profession": "Software Engineer",
+    "Profession": "Graduate Research Assistant",
     "image": "",
-    "email": "ahasankabir146@gmail.com",
-    "language": "English, Bengali"
+    "email": "ahasankabir146@gmail.com"
+    //"language": "English, Bengali"
   },
   "education": [
+    {
+      "institution": "University of Central Florida",
+      "location": "Florida, USA",
+      "studyType": "PhD in Computer Science",
+      "startDate": "Aug, 25",
+      "endDate": "Present"
+    },
     {
       "institution": "Chittagong University of Engineering and Technology",
       "location": "Chattogram, Bangladesh",
       "studyType": "BSc in Computer Science and Engineering",
       "startDate": "Jan, 18",
-      "endDate": "July, 23",
-      "courses": ["CGPA: 3.49/4.00 <a href=\"/assets/pdf/results/Transcript_Ahasan_Kabir.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>", "CGPA US Equivalent: 3.51/4.00 (WES) <a href=\"/assets/pdf/results/WES_Report_Unofficial_Ahasan_Kabir.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>"]
-    },
-    {
-      "institution": "Notre Dame College, Dhaka",
-      "location": "Dhaka, Bangladesh",
-      "studyType": "Higher Secondary Education",
-      "startDate": "Jan, 16",
-      "endDate": "Dec, 17",
-      "courses": ["GPA: 5.00/5.00"]
+      "endDate": "July, 23"
+      //,"courses": ["CGPA: 3.49/4.00 <a href=\"/assets/pdf/results/Transcript_Ahasan_Kabir.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>", "CGPA US Equivalent: 3.51/4.00 (WES) <a href=\"/assets/pdf/results/WES_Report_Unofficial_Ahasan_Kabir.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>"]
     }
+    // ,
+    // {
+    //   "institution": "Notre Dame College, Dhaka",
+    //   "location": "Dhaka, Bangladesh",
+    //   "studyType": "Higher Secondary Education",
+    //   "startDate": "Jan, 16",
+    //   "endDate": "Dec, 17",
+    //   "courses": ["GPA: 5.00/5.00"]
+    // }
   ],
-  "test scores": [
-    {
-      "title": "Graduate Record Examination",
-      "items": [
-        "Total: 327 / 340 <a href=\"/assets/pdf/GRE_Report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
-        "Quant: 169 / 170, Verbal: 158 / 170",
-        "Test Date: Sept, 2024"
-      ]
-    },
-    {
-      "title": "English Proficiency Test: TOEFL iBT",
-      "items": [
-        "Total: 99 / 120  <a href=\"/assets/pdf/Toefl_score_report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
-        "Reading: 28, Listening: 26, Speaking: 22, Writing: 23",
-        "Test Date: Oct, 2024"
-      ]
-    }
-  ],
+  "research experience": [
+  {
+    "name": "Unbounded AI Lab, University of Central Florida",
+    "position": "Graduate Research Assistant",
+    "location": "Orlando, USA",
+    "startDate": "Aug, 25",
+    "endDate": "Present",
+    "summary": "Working under Prof. Qian Lou on efficient and scalable AI systems.",
+    "highlights": [
+      "Exploring system-level optimizations for large language models.",
+      "Focusing on efficiency and scalability in AI deployment."
+    ]
+  },
+  {
+    "name": "Undergraduate Research",
+    "position": "Researcher",
+    "location": "Chattogram, Bangladesh",
+    "startDate": "Jun, 22",
+    "endDate": "Feb, 24",
+    "summary": "Worked on Bangla NLP projects, including emotion detection and multimodal sentiment analysis.",
+    "highlights": [
+      "Published findings at IEEE ICCIT 2023, and EMNLP 2023 (BLP Workshop)."
+    ]
+  }
+],
   "industrial experience": [
     {
       "name": "Kinetik Healthcare Solutions",
       "position": "Software Engineer I",
       "location" : "New York, US (Remote)",
       "startDate": "May, 23",
-      "endDate": "Present",
-      "summary": "Working as a full-time software engineer for a U.S.-based startup, contributing to an Uber-like app for medical transportation as one of the three core members of the iOS team.",
-      "highlights": ["Developing the iOS mobile application from scratch", "Designed the frontend with Swift, UIKit.", "Implementing the backend with NodeJs, gRPC, MongoDB, TypeScript, NestJs"]
+      "endDate": "July, 25",
+      "summary": "Worked as a full-time software engineer for a U.S.-based startup, contributing to an Uber-like app for medical transportation as one of the three core members of the iOS team.",
+      "highlights": ["Developed the iOS mobile application from scratch", "Designed the frontend with Swift, UIKit.", "Implemented the backend with NodeJs, gRPC, MongoDB, TypeScript, NestJs"]
     },
     {
       "name": "AppsCode Inc.",
@@ -60,42 +75,6 @@
       "endDate": "Nov, 23",
       "summary": "Undertook this internship as part of my undergraduate curriculum, gaining hands-on industry experience while fulfilling course credit requirements.",
       "highlights": ["Developed and integrated RESTful API endpoints using Go."]
-    }
-  ],
-  "research experience": [
-    // {
-    //   "name": "CUET NLP Lab",
-    //   "position": "Research Assistant - Part Time",
-    //   "location" : "Chattogram, Bangladesh",
-    //   "startDate": "Sept, 24",
-    //   "endDate": "Present",
-    //   "summary": "Conducting research under Professor Dr. Mohammed Moshiul Hoque, focusing on Retrieval-Augmented Generation (RAG) and large language model (LLM) applications for Bangla language tasks.",
-    //   "highlights": ["Building a benchmark to evaluate RAG models in the Bengali language.", "Creating a robust RAG framework for Bengali open-domain question answering."]
-    // },
-    {
-      "name": "",
-      "position": "Independent Research",
-      "location": "Chattogram, Bangladesh",
-      "startDate": "June, 23",
-      "endDate": "Feb, 24",
-      "summary": "Conducted independent research with peers on sentiment analysis and emotion classification, focusing on multimodal approaches and the detection of sarcasm in product reviews.",
-      "highlights": [
-        "Developed a multimodal Bangla social media dataset of 4,660 samples and designed a system for multimodal emotion classification, with findings published in IEEE - ICCIT 2023.",
-        "Separated sarcastic elements in online product reviews using binary classification, followed by multi-label sentiment analysis, with results published in Springer Nature Singapore - BIM 2023."
-      ]
-    },    
-    {
-      "name": "Chittagong University of Engineering and Technology",
-      "position": "Undergraduate Thesis",
-      "location": "Chattogram, Bangladesh",
-      "startDate": "June, 22",
-      "endDate": "May, 23",
-      "summary": "Worked under the supervision of Assistant Professor Animesh Chandra Roy to design a hybrid model for Bangla emotion detection, integrating lexicon features with pre-trained transformer models.",
-      "highlights": [
-          "Developed an emotion lexicon of 5,336 Bangla terms.",
-          "Improved classification performance by incorporating lexicon features with transformer models.",
-          "Published findings in EMNLP 2023 - BLP Workshop."
-      ]
     }
   ],
   "teaching experience": [
@@ -120,16 +99,17 @@
       "endDate": "Sept, 22",
       "summary": "Served as a trainer, using my competitive programming background to prepare IIUC teams for the International Collegiate Programming Contest.",
       "highlights": ["Conducted over 20 training sessions on Algorithms and Data Structures for a group of 100+ students.", "Reformed and coached teams that went on to secure 2nd and 3rd place in two inter-university programming contests."]
-    },
-    {
-      "name": "Chittagong University of Engineering and Technology",
-      "position": "Teaching Assistant",
-      "location" : "Chattogram, Bangladesh",
-      "startDate": "Mar, 18",
-      "endDate": "July, 18",
-      "summary": "Appointed as a TA for the \"Structured Programming\" course under Assistant Professor Md. Sabir Hossain.",
-      "highlights": ["Organized assignments and project-based tasks.", "Provided one-on-one guidance to enhance students' foundational knowledge."]
     }
+    //,
+    // {
+    //   "name": "Chittagong University of Engineering and Technology",
+    //   "position": "Teaching Assistant",
+    //   "location" : "Chattogram, Bangladesh",
+    //   "startDate": "Mar, 18",
+    //   "endDate": "July, 18",
+    //   "summary": "Appointed as a TA for the \"Structured Programming\" course under Assistant Professor Md. Sabir Hossain.",
+    //   "highlights": ["Organized assignments and project-based tasks.", "Provided one-on-one guidance to enhance students' foundational knowledge."]
+    // }
   ],
   "awards": [
     {
@@ -183,63 +163,77 @@
       ]
     }
   ],
+    "test scores": [
+    {
+      "title": "Graduate Record Examination",
+      "items": [
+        "Total: 327 / 340",
+        //"Total: 327 / 340 <a href=\"/assets/pdf/GRE_Report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+        "Quant: 169 / 170, Verbal: 158 / 170"
+      ]
+    },
+    {
+      "title": "English Proficiency Test: TOEFL iBT",
+      "items": [
+         "Total: 99 / 120",
+        //"Total: 99 / 120  <a href=\"/assets/pdf/Toefl_score_report.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> <i class=\"fa-solid fa-file-pdf\"></i></a>",
+        "Reading: 28, Listening: 26, Speaking: 22, Writing: 23"
+      ]
+    }
+  ],
   "publications": [
     "<a href=\"/publications/\" target=\"_blank\">View in publication page</a>"
   ],
-  "skills": [
-    {
-      "title": "Programming Language",
-      "items": [
-        "C/C++, Swift, JavaScript, Python"
-      ]
-    },
-    {
-      "title": "Frameworks",
-      "items": [
-        "PyTorch, Keras, Tensorflow"
-      ]
-    },
-    {
-      "title": "Mobile Application Development - iOS",
-      "items": [
-        "UIKit, SwiftUI"
-      ]
-    },
-    {
-      "title": "Backend Development",
-      "items": [
-        "TypeScript, NestJS, RESTAPI, RESTFul, gRPC, MongoDB"
-      ]
-    },
-    {
-      "title": "Others",
-      "items": [
-        "Natural Language Processing",
-        "Machine Learning, Deep Learning",
-        "Large Language Models, Retrieval Augmented Generation",
-        "Data Structures and Algorithms"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "title": "Real-Time Expression Detector <a href=\"https://github.com/Ahasannn/Real-Time-Expression-Detector\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
-      "description": ["Built a body language decoder to detect expression in real-time from live videos using machine learning algorithms in Python.", "Captured coordinates of facial expressions and gestures", "Detected happy, sad, and victory expressions with an average accuracy of 94%"]
-    },
-    {
-      "title": "FameBiz <a href=\"https://fame-biz.vercel.app\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
-      "description": ["This was a team project, we developed a platform to connect fans with their favorite celebrities.","I implemented the backend of this project using TypeScript, NestJS, MongoDB, and REST API."]
-    }
-  ],
-  "leadership": [
-    {
-      "organization": "CUET Computer Club",
-      "location": "Chattogram, Bangladesh",
-      "position": "Vice President",
-      "startDate": "Aug, 22",
-      "endDate": "Apr, 23",
-      "summary": "",
-      "highlights": ["Arranged workshops, seminars & contests on regular basis.", "Created annual curriculum and programming syllabus for the club members."]
-    }
-  ]
+"skills": [
+  {
+    "title": "Programming Languages",
+    "items": [
+      "Python, C/C++, Swift, JavaScript/TypeScript"
+    ]
+  },
+  {
+    "title": "Machine Learning & AI",
+    "items": [
+      "PyTorch, TensorFlow, Keras",
+      "Large Language Models",
+      "Efficient & Scalable AI Systems"
+    ]
+  },
+  {
+    "title": "Mobile & Web Development",
+    "items": [
+      "iOS Development (UIKit, SwiftUI)",
+      "Backend Development: NestJS, REST/gRPC, MongoDB"
+    ]
+  },
+  {
+    "title": "Other Skills",
+    "items": [
+      "Algorithms & Data Structures",
+      "Competitive Programming"
+    ]
+  }
+]
+// ,
+//   "projects": [
+//     {
+//       "title": "Real-Time Expression Detector <a href=\"https://github.com/Ahasannn/Real-Time-Expression-Detector\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
+//       "description": ["Built a body language decoder to detect expression in real-time from live videos using machine learning algorithms in Python.", "Captured coordinates of facial expressions and gestures", "Detected happy, sad, and victory expressions with an average accuracy of 94%"]
+//     },
+//     {
+//       "title": "FameBiz <a href=\"https://fame-biz.vercel.app\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fas fa-external-link-alt\"></i></a>",
+//       "description": ["This was a team project, we developed a platform to connect fans with their favorite celebrities.","I implemented the backend of this project using TypeScript, NestJS, MongoDB, and REST API."]
+//     }
+//   ],
+//   "leadership": [
+//     {
+//       "organization": "CUET Computer Club",
+//       "location": "Chattogram, Bangladesh",
+//       "position": "Vice President",
+//       "startDate": "Aug, 22",
+//       "endDate": "Apr, 23",
+//       "summary": "",
+//       "highlights": ["Arranged workshops, seminars & contests on regular basis.", "Created annual curriculum and programming syllabus for the club members."]
+//     }
+//   ]
 }
