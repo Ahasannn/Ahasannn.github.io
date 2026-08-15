@@ -1,0 +1,227 @@
+/* Ahasan Kabir — personal site
+   Classic minimal academic layout: one centered column, generous whitespace. */
+
+:root {
+  --bg: #ffffff;
+  --text: #1c1c1c;
+  --muted: #6b6b6b;
+  --accent: #2456a6;
+  --accent-hover: #16386f;
+  --rule: #e4e4e4;
+  --callout-bg: #f4f7fc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121417;
+    --text: #d8d8d8;
+    --muted: #8f8f8f;
+    --accent: #7aa2e8;
+    --accent-hover: #a8c4f2;
+    --rule: #2a2d31;
+    --callout-bg: #1a2029;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem 2rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* ---------- Header ---------- */
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 2.25rem;
+}
+
+h1 {
+  margin: 0 0 0.4rem;
+  font-size: 2rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+}
+
+.links a {
+  margin-right: 0.9rem;
+  font-weight: 500;
+}
+
+.portrait {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ---------- Sections ---------- */
+section { margin-bottom: 2.5rem; }
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.35rem;
+  margin: 0 0 1rem;
+}
+
+/* ---------- About ---------- */
+#about p { margin: 0 0 0.9rem; }
+
+.callout {
+  background: var(--callout-bg);
+  border-left: 3px solid var(--accent);
+  padding: 0.6rem 0.9rem;
+  border-radius: 0 6px 6px 0;
+}
+
+.muted { color: var(--muted); }
+
+/* ---------- News ---------- */
+.news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news li {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 0.75rem;
+  margin-bottom: 0.55rem;
+}
+
+.news .date {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* ---------- Publications ---------- */
+.pubs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pubs li { margin-bottom: 1.15rem; }
+.pubs p { margin: 0; }
+
+.pub-title { font-weight: 600; }
+
+.pub-authors { font-size: 0.95rem; }
+
+.pub-authors .me {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 3px;
+}
+
+.pub-venue {
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.pub-links { font-style: normal; }
+
+.pub-links a {
+  font-size: 0.85rem;
+  font-weight: 550;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 0.05rem 0.4rem;
+  margin-left: 0.35rem;
+}
+.pub-links a:hover { text-decoration: none; border-color: var(--accent); }
+
+.pubs-divider {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 1.5rem 0 0.9rem;
+}
+
+.earlier .pub-title { font-weight: 500; }
+
+/* ---------- Background ---------- */
+.bg {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bg li {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+
+.bg-label {
+  color: var(--muted);
+  font-weight: 550;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  border-top: 1px solid var(--rule);
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+footer p { margin: 0; }
+
+/* ---------- Small screens ---------- */
+@media (max-width: 560px) {
+  main { padding-top: 2rem; }
+
+  header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .portrait { width: 120px; height: 120px; }
+
+  .news li,
+  .bg li {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .news .date { font-size: 0.85rem; }
+}
