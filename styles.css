@@ -9,6 +9,7 @@
   --accent-hover: #16386f;
   --rule: #e4e4e4;
   --callout-bg: #f4f7fc;
+  --tag-bg: #eef2f9;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +21,7 @@
     --accent-hover: #a8c4f2;
     --rule: #2a2d31;
     --callout-bg: #1a2029;
+    --tag-bg: #1d2530;
   }
 }
 
@@ -96,8 +98,8 @@ h2 {
   margin: 0 0 1rem;
 }
 
-/* ---------- About ---------- */
-#about p { margin: 0 0 0.9rem; }
+/* ---------- Biography ---------- */
+#bio p { margin: 0 0 0.9rem; }
 
 .callout {
   background: var(--callout-bg);
@@ -135,10 +137,23 @@ h2 {
   padding: 0;
 }
 
-.pubs li { margin-bottom: 1.15rem; }
+.pubs li { margin-bottom: 1.25rem; }
 .pubs p { margin: 0; }
 
 .pub-title { font-weight: 600; }
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  background: var(--tag-bg);
+  border-radius: 4px;
+  padding: 0.05rem 0.45rem;
+  margin-right: 0.35rem;
+  vertical-align: 0.1em;
+}
 
 .pub-authors { font-size: 0.95rem; }
 
@@ -152,10 +167,9 @@ h2 {
 .pub-venue {
   font-size: 0.95rem;
   color: var(--muted);
-  font-style: italic;
 }
 
-.pub-links { font-style: normal; }
+.pub-venue .venue { color: var(--text); }
 
 .pub-links a {
   font-size: 0.85rem;
@@ -167,18 +181,31 @@ h2 {
 }
 .pub-links a:hover { text-decoration: none; border-color: var(--accent); }
 
-.pubs-divider {
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--muted);
-  margin: 1.5rem 0 0.9rem;
+/* ---------- Honors, Competitions ---------- */
+.plain {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.earlier .pub-title { font-weight: 500; }
+.plain li {
+  margin-bottom: 0.45rem;
+  padding-left: 1rem;
+  position: relative;
+}
 
-/* ---------- Background ---------- */
+.plain li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ---------- Experience / Education ---------- */
 .bg {
   list-style: none;
   margin: 0;
@@ -189,12 +216,13 @@ h2 {
   display: grid;
   grid-template-columns: 6.5rem 1fr;
   gap: 0.75rem;
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.7rem;
 }
 
 .bg-label {
   color: var(--muted);
-  font-weight: 550;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 /* ---------- Footer ---------- */
@@ -223,5 +251,6 @@ footer p { margin: 0; }
     gap: 0;
   }
 
-  .news .date { font-size: 0.85rem; }
+  .news .date,
+  .bg-label { font-size: 0.85rem; }
 }
