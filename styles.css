@@ -12,19 +12,6 @@
   --tag-bg: #eef2f9;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #121417;
-    --text: #d8d8d8;
-    --muted: #8f8f8f;
-    --accent: #7aa2e8;
-    --accent-hover: #a8c4f2;
-    --rule: #2a2d31;
-    --callout-bg: #1a2029;
-    --tag-bg: #1d2530;
-  }
-}
-
 * { box-sizing: border-box; }
 
 body {
@@ -109,6 +96,14 @@ h2 {
 }
 
 .muted { color: var(--muted); }
+
+.hero-callout { margin: -0.5rem 0 2.25rem; }
+
+.pubs .pub-desc {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-top: 0.1rem;
+}
 
 /* ---------- News ---------- */
 .news {
