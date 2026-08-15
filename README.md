@@ -27,6 +27,21 @@ Or just open `index.html` in a browser.
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which publishes the site
 to the `gh-pages` branch. GitHub Pages serves that branch. Nothing else to do.
 
+## Resume
+
+The LaTeX source lives in `resume-overleaf/` — a nested git repo synced with
+Overleaf (ignored by this repo's git). To update the resume:
+
+```sh
+cd resume-overleaf
+# edit main.tex, then:
+tectonic main.tex
+cp main.pdf ../assets/Ahasan_Kabir_CV.pdf
+git commit -am "Update resume" && git push   # syncs back to Overleaf
+```
+
+Then commit the refreshed PDF in the site repo.
+
 ## Updating content
 
 Everything lives in `index.html` — edit the News list, Publications list, or bio
