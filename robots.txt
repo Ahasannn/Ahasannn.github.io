@@ -1,4 +1,2 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://Ahasannn.github.io/sitemap.xml
+Allow: /

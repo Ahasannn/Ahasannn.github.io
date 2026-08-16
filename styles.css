@@ -1,0 +1,256 @@
+/* Ahasan Kabir — personal site
+   Classic minimal academic layout: one centered column, generous whitespace. */
+
+:root {
+  --bg: #ffffff;
+  --text: #1c1c1c;
+  --muted: #6b6b6b;
+  --accent: #2456a6;
+  --accent-hover: #16386f;
+  --rule: #e4e4e4;
+  --callout-bg: #f4f7fc;
+  --tag-bg: #eef2f9;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem 2rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* ---------- Header ---------- */
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 2.25rem;
+}
+
+h1 {
+  margin: 0 0 0.4rem;
+  font-size: 2rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+}
+
+.links a {
+  margin-right: 0.9rem;
+  font-weight: 500;
+}
+
+.portrait {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ---------- Sections ---------- */
+section { margin-bottom: 2.5rem; }
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.35rem;
+  margin: 0 0 1rem;
+}
+
+/* ---------- Biography ---------- */
+#bio p { margin: 0 0 0.9rem; }
+
+.callout {
+  background: var(--callout-bg);
+  border-left: 3px solid var(--accent);
+  padding: 0.6rem 0.9rem;
+  border-radius: 0 6px 6px 0;
+}
+
+.muted { color: var(--muted); }
+
+.hero-callout { margin: -0.5rem 0 2.25rem; }
+
+.pubs .pub-desc {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-top: 0.1rem;
+}
+
+.pub-desc .psr {
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* ---------- News ---------- */
+.news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news li {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 0.75rem;
+  margin-bottom: 0.55rem;
+}
+
+.news .date {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* ---------- Publications ---------- */
+.pubs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pubs li { margin-bottom: 1.25rem; }
+.pubs p { margin: 0; }
+
+.pub-title { font-weight: 600; }
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  background: var(--tag-bg);
+  border-radius: 4px;
+  padding: 0.05rem 0.45rem;
+  margin-right: 0.35rem;
+  vertical-align: 0.1em;
+}
+
+.pub-authors { font-size: 0.95rem; }
+
+.pub-authors .me {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 3px;
+}
+
+.pub-venue {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.pub-venue .venue { color: var(--text); }
+
+.pub-links a {
+  font-size: 0.85rem;
+  font-weight: 550;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 0.05rem 0.4rem;
+  margin-left: 0.35rem;
+}
+.pub-links a:hover { text-decoration: none; border-color: var(--accent); }
+
+/* ---------- Honors, Competitions ---------- */
+.plain {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plain li {
+  margin-bottom: 0.45rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.plain li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ---------- Experience / Education ---------- */
+.bg {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bg li {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 0.75rem;
+  margin-bottom: 0.7rem;
+}
+
+.bg-label {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  border-top: 1px solid var(--rule);
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+footer p { margin: 0; }
+
+/* ---------- Small screens ---------- */
+@media (max-width: 560px) {
+  main { padding-top: 2rem; }
+
+  header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .portrait { width: 120px; height: 120px; }
+
+  .news li,
+  .bg li {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .news .date,
+  .bg-label { font-size: 0.85rem; }
+}
