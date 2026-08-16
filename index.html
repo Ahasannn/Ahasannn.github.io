@@ -84,7 +84,7 @@
         <p class="pub-venue"><strong class="venue">DAC 2026</strong> &middot; 63rd ACM/IEEE Design Automation Conference
           <span class="pub-links"><a href="assets/papers/HW-Router_DAC2026.pdf" target="_blank" rel="noopener">PDF</a></span>
         </p>
-        <p class="pub-desc">Feeds real-time hardware signals &mdash; queue depth, KV-cache utilization, latency history &mdash; into SLO-aware model routing with ~200&nbsp;&micro;s overhead: 3.4&ndash;3.9&times; lower end-to-end latency and 46&ndash;48&nbsp;pp higher SLO attainment than state-of-the-art routers.</p>
+        <p class="pub-desc">When many LLMs share a GPU cluster, existing routers pick a model for each request without knowing how busy the hardware is. HW-Router checks live GPU signals before each decision &mdash; making responses 3.4&ndash;3.9&times; faster and letting 46&ndash;48 percentage points more requests meet their latency targets, with negligible overhead.</p>
       </li>
       <li>
         <p class="pub-title"><span class="tag">Agents</span> InfraMind: Infrastructure-Aware Multi-Agent Orchestration</p>
@@ -92,7 +92,7 @@
         <p class="pub-venue"><strong class="venue">arXiv 2026</strong> &middot; preprint
           <span class="pub-links"><a href="https://arxiv.org/abs/2606.11440" target="_blank" rel="noopener">arXiv</a></span>
         </p>
-        <p class="pub-desc">Makes the full multi-agent stack &mdash; planner, model routing, and scheduling &mdash; aware of live infrastructure state, trained end-to-end with RL: up to +7.6&nbsp;pp accuracy, 7&times; lower latency, and 99.9% SLO compliance on shared GPU clusters.</p>
+        <p class="pub-desc">Teams of AI agents usually plan their work as if the GPUs underneath were always free, so some pile up long queues while others sit idle. InfraMind plans, picks models, and schedules around what the cluster is actually doing &mdash; answers get up to 7.6 percentage points more accurate and up to 7&times; faster, and 99.9% of requests meet their deadlines even under heavy load.</p>
       </li>
       <li>
         <p class="pub-title"><span class="tag">NLP</span> BEmoLexBERT: A Hybrid Model for Multilabel Textual Emotion Classification in Bangla by Combining Transformers with Lexicon Features</p>
