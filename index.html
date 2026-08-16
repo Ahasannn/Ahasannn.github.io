@@ -84,7 +84,11 @@
         <p class="pub-venue"><strong class="venue">DAC 2026</strong> &middot; 63rd ACM/IEEE Design Automation Conference
           <span class="pub-links"><a href="assets/papers/HW-Router_DAC2026.pdf" target="_blank" rel="noopener">PDF</a></span>
         </p>
-        <p class="pub-desc">When many LLMs share a GPU cluster, existing routers pick a model for each request without knowing how busy the hardware is. HW-Router checks live GPU signals before each decision &mdash; making responses 3.4&ndash;3.9&times; faster and letting 46&ndash;48 percentage points more requests meet their latency targets, with negligible overhead.</p>
+        <p class="pub-desc">
+          <span class="psr">Problem:</span> existing routers choose among LLMs using static model characteristics, missing the performance swings caused by hardware type, load, and contention.<br>
+          <span class="psr">Solution:</span> bring real-time hardware signals &mdash; queue length, cache usage, recent latency &mdash; into model selection for accurate latency prediction and SLO-aware routing.<br>
+          <span class="psr">Result:</span> 3.4&ndash;3.9&times; lower end-to-end latency and 46&ndash;48&nbsp;pp higher SLO attainment than state-of-the-art routers, with ~200&nbsp;&micro;s routing overhead.
+        </p>
       </li>
       <li>
         <p class="pub-title"><span class="tag">Agents</span> InfraMind: Infrastructure-Aware Multi-Agent Orchestration</p>
@@ -92,7 +96,11 @@
         <p class="pub-venue"><strong class="venue">arXiv 2026</strong> &middot; preprint
           <span class="pub-links"><a href="https://arxiv.org/abs/2606.11440" target="_blank" rel="noopener">arXiv</a></span>
         </p>
-        <p class="pub-desc">Teams of AI agents usually plan their work as if the GPUs underneath were always free, so some pile up long queues while others sit idle. InfraMind plans, picks models, and schedules around what the cluster is actually doing &mdash; answers get up to 7.6 percentage points more accurate and up to 7&times; faster, and 99.9% of requests meet their deadlines even under heavy load.</p>
+        <p class="pub-desc">
+          <span class="psr">Problem:</span> multi-agent LLM systems plan and route from task and model features alone, ignoring infrastructure state &mdash; preferred models build deep queues while equally capable ones sit idle.<br>
+          <span class="psr">Solution:</span> make the full stack infrastructure-aware &mdash; a planner that adapts workflow complexity to load, an executor that routes by live queue and cache signals, and a deadline-driven scheduler &mdash; trained end-to-end with reinforcement learning.<br>
+          <span class="psr">Result:</span> up to +7.6&nbsp;pp higher accuracy with 7&times; lower latency, sustaining 99.9% SLO compliance under load where every baseline drops below 50%.
+        </p>
       </li>
       <li>
         <p class="pub-title"><span class="tag">NLP</span> BEmoLexBERT: A Hybrid Model for Multilabel Textual Emotion Classification in Bangla by Combining Transformers with Lexicon Features</p>
@@ -132,7 +140,9 @@
       </li>
       <li>
         <span class="bg-label">2023 &ndash; 2025</span>
-        <span><strong>Software Engineer</strong>, Kinetik Healthcare Solutions &mdash; built an on-demand iOS platform for non-emergency patient transportation</span>
+        <span><strong>Software Engineer</strong>, Kinetik Healthcare Solutions &mdash; New York, USA (remote).
+        Built the user-facing ride-booking iOS app that patients use to book and track medical
+        transportation, published on the App Store.</span>
       </li>
     </ul>
   </section>

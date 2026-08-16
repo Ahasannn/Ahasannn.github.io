@@ -105,6 +105,11 @@ h2 {
   margin-top: 0.1rem;
 }
 
+.pub-desc .psr {
+  font-weight: 600;
+  color: var(--text);
+}
+
 /* ---------- News ---------- */
 .news {
   list-style: none;
